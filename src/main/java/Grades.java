@@ -3,7 +3,7 @@ public class Grades {
     private int size;
 
     public Grades() {
-        this.grades = new int[4];
+        this.grades = new int[10];
         this.size = 0;
     }
 
@@ -23,7 +23,7 @@ public class Grades {
     }
 
     public int lastGrade(){
-        int lastGrade = this.grades[this.grades.length -1];
+        int lastGrade = this.grades[size-1];
             return lastGrade;
 
     }
