@@ -1,6 +1,6 @@
 package com.kodilla.inheritance;
 
-public class OP3 {
+public class OS3 {
 
     public static void main(String[] args) {
         OperatingSystem operatingSystem = new OperatingSystem(2010);

@@ -1,22 +1,23 @@
-public class Colors2 {
-    public String getUserColors() {
-    String userSelected = new String();
-    String = Colors();
-    double result = 0;
-    switch (userSelected) {
-        case "Y":
-            result = yellow;
-            break;
-        case "M":
-            result = Magenta;
-            break;
-        case "Bl":
-            result = Black;
-            break;
-        case "B":
-            result = Blue;
-            break;
+import java.util.Scanner;
+public class Colors {
+    public static String getColors(){
+        Scanner scanner = new Scanner((System.in));
+        while (true) {
+            System.out.println("Select first colors letter (R, M, B, G):");
+            String colors = scanner.nextLine().trim().toUpperCase();
+            if (colors.equals("R")) {
+                return "red";
+            } else if (colors.equals("M")) {
+                return "magenta";
+            } else if (colors.equals("B")) {
+                return "blue";
+            } else if (colors.equals("G")) {
+                return "green";
+            }
+        }
     }
-    return result;
-}}
 
+    public static void main(String[] args) {
+        System.out.println(getColors());
+    }
+}
