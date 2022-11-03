@@ -22,7 +22,7 @@ public class Policeman extends Jobs {
     }
 
     @Override
-    public void responsibilities() {
-        System.out.println("Policeman duty is protect people");
+    public String responsibilities() {
+        return  ("Policeman duty is protect people");
     }
 }

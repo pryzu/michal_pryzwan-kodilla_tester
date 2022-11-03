@@ -17,7 +17,7 @@ public class Application {
         int a = 14;
         int b = 4;
         int substractResult = calculator.substract(a, b);
-        boolean correct2 = ResultChecker.assertEquals(11, 10);
+        boolean correct2 = ResultChecker.assertEquals(11,10);
         if (correct2){
             System.out.println("Metoda substract działa poprawnie dla liczb " + x + " i " + y);
         }else {
@@ -27,7 +27,11 @@ public class Application {
         int c = 2;
         int d = 2;
         int compounding = calculator.compounding(c, d);
-        Math.pow(2,2);
-        System.out.println(c + " do potęgi "+ d + " równa się: "+ Math.pow(2,2));
+        boolean correct3 = ResultChecker.assertEquals(11,10, 0.01);
+        if (correct3){
+        System.out.println(c + " do potęgi "+ d + " równa się: "+ Math.pow(2,2));}
+
+
     }
+
 }

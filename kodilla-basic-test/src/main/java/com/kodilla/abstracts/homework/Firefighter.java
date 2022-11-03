@@ -21,8 +21,9 @@ public class Firefighter extends Jobs {
     }
 
     @Override
-    public void responsibilities() {
-        System.out.println("Fitefighter duty is catch fire");
+    public String responsibilities() {
+
+        return  ("Fitefighter duty is catch fire");
     }
 
 

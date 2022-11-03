@@ -17,5 +17,5 @@ public abstract class Jobs {
 
     public abstract void job();
 
-    public abstract void responsibilities();
+    public abstract String responsibilities();
 }

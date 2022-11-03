@@ -21,7 +21,7 @@ public class Doc extends Jobs{
     }
 
     @Override
-    public void responsibilities() {
-        System.out.println("Doctor duty is healing humans");
+    public String responsibilities() {
+        return ("Doctor duty is healing humans");
     }
 }

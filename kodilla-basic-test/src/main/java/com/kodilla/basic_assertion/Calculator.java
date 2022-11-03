@@ -10,6 +10,7 @@ public class Calculator {
         return a - b;
     }
     public int compounding (int c, int d){
-        return c^d;
+
+        return c ^ d;
     }
 }
