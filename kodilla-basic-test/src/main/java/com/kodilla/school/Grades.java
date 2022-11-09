@@ -15,18 +15,21 @@ package com.kodilla.school;
             int[] newTab = new int[this.size];
             System.arraycopy(values, 0, newTab, 0, values.length);
             newTab[this.size - 1] = value;
-            this.size = newTab;
+            this.values = newTab;
         }
 
         public int[] getValues() {
             return values;
         }
         public double getAverage(){
-            double sum = 0;
-            final (int i =0; this.values.length; i++){
-            sum += this.values[i];
+           if (this.values.length == 0){
+               return  0;
+           }
+           double sum = 0;
+           for (int i = 0; i < this.values.length; i++){
+                sum += this.values[i];
             }
-            return sum/this.values.length;
-        }
+           return sum/this.values.length;
+            }
     }
 
