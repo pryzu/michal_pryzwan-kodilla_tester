@@ -1,23 +1,23 @@
-//package com.example.kodillacollections.interfaces.homework;
-//
-//public class Ford implements Car{
-//    public int increasespeed1;
-//    public int increasespeed2;
-//    public int increasespeed3;
-//    public int decreasespeed1;
-//    public int dereasespeed2;
-//    private int speed;
-//    private int increaseSpeed1 = 15;
-//    private int increaseSpeed2 = 25;
-//    private int increaseSpeed3 = 60;
-//    private int decreaseSpeed1 = 30;
-//    private int decreaseSpeed2 = 20;
-//
-//    Ford(){
-//        this.speed = speed;
-//    }
-//
-//    public int getSpeed() {
-//        return increaseSpeed1 + increaseSpeed2 + increaseSpeed3 - decreaseSpeed1 - decreaseSpeed2;
-//    }
-//}
+package com.example.kodillacollections.interfaces.homework;
+
+public class Ford implements Car {
+    private int speed;
+
+    public Ford(int speed) {
+        this.speed = speed;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    @Override
+    public void increaseSpeed() {
+        speed = speed + 10;
+    }
+
+    @Override
+    public void decreaseSpeed() {
+    speed = speed - 5;
+    }
+}

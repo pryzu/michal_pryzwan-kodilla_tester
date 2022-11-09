@@ -1,11 +1,8 @@
-//package com.example.kodillacollections.interfaces.homework;
-//
-//public interface Car {
-//
-//    int getSpeed();
-//
-//private static void doRace (Car car){
-//    System.out.println(car.getSpeed);
-//}
-//
-//}
+package com.example.kodillacollections.interfaces.homework;
+
+public interface Car {
+
+    int getSpeed();
+    void increaseSpeed();
+    void decreaseSpeed();
+}
