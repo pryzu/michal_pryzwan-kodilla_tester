@@ -4,6 +4,6 @@ public interface Shape {
 
     double getArea();
 
-    double getPremiter();
+    double getPerimeter();
 
 }

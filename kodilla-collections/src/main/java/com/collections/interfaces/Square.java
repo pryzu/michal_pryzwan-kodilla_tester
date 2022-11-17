@@ -13,7 +13,7 @@ public class Square implements Shape{
         return width * width;
     }
 
-    public double getPremiter() {
+    public double getPerimeter() {
         return 4 * width;
     }
 }

@@ -13,7 +13,8 @@ public class Circle implements  Shape{
     }
 
     @Override
-    public double getPremiter() {
+    public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
+
 }

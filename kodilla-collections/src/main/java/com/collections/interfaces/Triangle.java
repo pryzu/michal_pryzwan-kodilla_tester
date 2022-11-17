@@ -17,7 +17,9 @@ public class Triangle implements Shape{
     }
 
     @Override
-    public double getPremiter() {
+    public double getPerimeter() {
         return width + height + hypotenuse;
     }
-}
+
+    }
+
