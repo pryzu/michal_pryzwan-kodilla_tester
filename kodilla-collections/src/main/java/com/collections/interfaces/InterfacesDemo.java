@@ -1,4 +1,4 @@
-package com.example.kodillacollections.interfaces;
+package com.collections.interfaces;
 
 public class InterfacesDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.example.kodillacollections;
+package com.collections;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

@@ -1,4 +1,4 @@
-package com.example.kodillacollections;
+package com.collections;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

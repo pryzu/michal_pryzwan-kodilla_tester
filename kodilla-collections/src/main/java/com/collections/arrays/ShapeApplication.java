@@ -1,9 +1,9 @@
-package com.kodillacollections.arrays;
+package com.collections.arrays;
 
-import com.example.kodillacollections.interfaces.Circle;
-import com.example.kodillacollections.interfaces.Shape;
-import com.example.kodillacollections.interfaces.Square;
-import com.example.kodillacollections.interfaces.Triangle;
+import com.collections.interfaces.Circle;
+import com.collections.interfaces.Shape;
+import com.collections.interfaces.Square;
+import com.collections.interfaces.Triangle;
 
 import java.util.Random;
 
@@ -14,7 +14,7 @@ public class ShapeApplication {
         for (int n = 0; n < shapes.length; n++)
             shapes[n] = drawShape();
         for (Shape shape : shapes)
-            com.kodilla.collections.arrays.ShapeUtils.displayShapeInfo(shape);
+            ShapeUtils.displayShapeInfo(shape);
     }
     private static Shape drawShape() {
         Random random = new Random();

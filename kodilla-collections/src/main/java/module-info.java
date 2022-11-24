@@ -3,6 +3,6 @@ module com.example.kodillacollections {
     requires javafx.fxml;
 
 
-    opens com.example.kodillacollections to javafx.fxml;
-    exports com.example.kodillacollections;
+    opens com.collections to javafx.fxml;
+    exports com.collections;
 }
